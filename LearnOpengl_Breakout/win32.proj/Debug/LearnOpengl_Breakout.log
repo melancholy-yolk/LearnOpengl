@@ -1,0 +1,57 @@
+﻿生成启动时间为 2020/9/2 10:42:35。
+     1>项目“D:\VS2013workspace\LearnOpengl_Breakout\win32.proj\LearnOpengl_Breakout.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\Mesh.cpp ..\src\Shader.cpp ..\src\main.cpp
+         Shader.cpp
+         正在生成代码...
+         正在编译...
+         main.cpp
+     1>d:\vs2013workspace\learnopengl_breakout\src\mycamera.h(111): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\vs2013workspace\learnopengl_breakout\src\main.cpp(82): error C2661: “Shader::Shader”: 没有重载函数接受 2 个参数
+     1>d:\vs2013workspace\learnopengl_breakout\src\main.cpp(83): error C2661: “Shader::Shader”: 没有重载函数接受 2 个参数
+     1>d:\vs2013workspace\learnopengl_breakout\src\main.cpp(226): error C2039: “use”: 不是“Shader”的成员
+                 d:\vs2013workspace\learnopengl_breakout\src\shader.h(16) : 参见“Shader”的声明
+     1>d:\vs2013workspace\learnopengl_breakout\src\main.cpp(227): error C2039: “setInt”: 不是“Shader”的成员
+                 d:\vs2013workspace\learnopengl_breakout\src\shader.h(16) : 参见“Shader”的声明
+     1>d:\vs2013workspace\learnopengl_breakout\src\main.cpp(229): error C2039: “use”: 不是“Shader”的成员
+                 d:\vs2013workspace\learnopengl_breakout\src\shader.h(16) : 参见“Shader”的声明
+     1>d:\vs2013workspace\learnopengl_breakout\src\main.cpp(230): error C2039: “setInt”: 不是“Shader”的成员
+                 d:\vs2013workspace\learnopengl_breakout\src\shader.h(16) : 参见“Shader”的声明
+     1>d:\vs2013workspace\learnopengl_breakout\src\main.cpp(231): error C2039: “setInt”: 不是“Shader”的成员
+                 d:\vs2013workspace\learnopengl_breakout\src\shader.h(16) : 参见“Shader”的声明
+     1>d:\vs2013workspace\learnopengl_breakout\src\main.cpp(265): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>d:\vs2013workspace\learnopengl_breakout\src\main.cpp(290): error C2039: “use”: 不是“Shader”的成员
+                 d:\vs2013workspace\learnopengl_breakout\src\shader.h(16) : 参见“Shader”的声明
+     1>d:\vs2013workspace\learnopengl_breakout\src\main.cpp(294): error C2039: “setMatrix4”: 不是“Shader”的成员
+                 d:\vs2013workspace\learnopengl_breakout\src\shader.h(16) : 参见“Shader”的声明
+     1>d:\vs2013workspace\learnopengl_breakout\src\main.cpp(295): error C2039: “setMatrix4”: 不是“Shader”的成员
+                 d:\vs2013workspace\learnopengl_breakout\src\shader.h(16) : 参见“Shader”的声明
+     1>d:\vs2013workspace\learnopengl_breakout\src\main.cpp(296): error C2039: “setFloat”: 不是“Shader”的成员
+                 d:\vs2013workspace\learnopengl_breakout\src\shader.h(16) : 参见“Shader”的声明
+     1>d:\vs2013workspace\learnopengl_breakout\src\main.cpp(297): error C2039: “setFloat”: 不是“Shader”的成员
+                 d:\vs2013workspace\learnopengl_breakout\src\shader.h(16) : 参见“Shader”的声明
+     1>d:\vs2013workspace\learnopengl_breakout\src\main.cpp(304): error C2039: “setMatrix4”: 不是“Shader”的成员
+                 d:\vs2013workspace\learnopengl_breakout\src\shader.h(16) : 参见“Shader”的声明
+     1>d:\vs2013workspace\learnopengl_breakout\src\main.cpp(308): error C2039: “setMatrix4”: 不是“Shader”的成员
+                 d:\vs2013workspace\learnopengl_breakout\src\shader.h(16) : 参见“Shader”的声明
+     1>d:\vs2013workspace\learnopengl_breakout\src\main.cpp(315): error C2039: “setMatrix4”: 不是“Shader”的成员
+                 d:\vs2013workspace\learnopengl_breakout\src\shader.h(16) : 参见“Shader”的声明
+     1>d:\vs2013workspace\learnopengl_breakout\src\main.cpp(337): error C2039: “use”: 不是“Shader”的成员
+                 d:\vs2013workspace\learnopengl_breakout\src\shader.h(16) : 参见“Shader”的声明
+     1>d:\vs2013workspace\learnopengl_breakout\src\main.cpp(338): error C2039: “setFloat”: 不是“Shader”的成员
+                 d:\vs2013workspace\learnopengl_breakout\src\shader.h(16) : 参见“Shader”的声明
+     1>d:\vs2013workspace\learnopengl_breakout\src\main.cpp(400): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\vs2013workspace\learnopengl_breakout\src\main.cpp(401): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\vs2013workspace\learnopengl_breakout\src\main.cpp(405): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>d:\vs2013workspace\learnopengl_breakout\src\main.cpp(406): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>d:\vs2013workspace\learnopengl_breakout\src\main.cpp(408): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\vs2013workspace\learnopengl_breakout\src\main.cpp(409): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         Mesh.cpp
+     1>d:\vs2013workspace\learnopengl_breakout\src\mesh.cpp(37): error C2039: “setFloat”: 不是“Shader”的成员
+                 d:\vs2013workspace\learnopengl_breakout\src\shader.h(16) : 参见“Shader”的声明
+         正在生成代码...
+     1>已完成生成项目“D:\VS2013workspace\LearnOpengl_Breakout\win32.proj\LearnOpengl_Breakout.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.62
